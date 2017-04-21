@@ -1,0 +1,135 @@
+* {
+	padding: 0;
+	margin: 0;
+	font-family: Arial,Helvetica,sans-serif;
+	text-align: center;
+}
+
+h1 {
+	width: 150px;
+	margin: 20px auto;
+}
+
+button {
+	width: 150px;
+	margin: 10px auto;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	font-size: 20pt;
+	color: white;
+	background-color: #4386F1;
+	border-style: none;
+	box-shadow: 3px 3px 10px gray;
+}
+
+#puzzlearea {
+	position: relative;
+	width: 360px;
+	height: 360px;
+	margin: 0 auto;
+}
+
+.tile {
+	background-image: url("panda.jpg");
+	background-repeat: no-repeat;
+	width: 88px;
+	height: 88px;
+	border: 1px solid gray;
+	cursor: pointer;
+	transition: all 0.2s ease-out;
+}
+
+.tile:hover {
+	transform: scale(1.05, 1.05);
+}
+
+#square_0 {
+	position: absolute;
+	background-position: 0 0;
+}
+
+#square_1 {
+	position: absolute;
+	background-position: -90px 0;
+}
+
+#square_2 {
+	position: absolute;
+	background-position: -180px 0;
+}
+
+#square_3 {
+	position: absolute;
+	background-position: -270px 0;
+}
+
+#square_4 {
+	position: absolute;
+	background-position: 0 -90px;
+}
+
+#square_5 {
+	position: absolute;
+	background-position: -90px -90px;
+}
+
+#square_6 {
+	position: absolute;
+	background-position: -180px -90px;
+}
+
+#square_7 {
+	position: absolute;
+	background-position: -270px -90px;
+}
+
+#square_8 {
+	position: absolute;
+	background-position: 0 -180px;
+}
+
+#square_9 {
+	position: absolute;
+	background-position: -90px -180px;
+}
+
+#square_10 {
+	position: absolute;
+	background-position: -180px -180px;
+}
+
+#square_11 {
+	position: absolute;
+	background-position: -270px -180px;
+}
+
+#square_12 {
+	position: absolute;
+	background-position: 0 -270px;
+}
+
+#square_13 {
+	position: absolute;
+	background-position: -90px -270px;
+}
+
+#square_14 {
+	position: absolute;
+	background-position: -180px -270px;
+}
+
+#isWin {
+	opacity: 0;
+}
+
+#winner {
+	color: white;
+	font-size: 24px;
+	width: 150px;
+	height: 40px;
+	padding-top: 10px;
+	background-color: orange;
+	border-radius: 5px;
+	margin: 10px auto;
+	transition: all 0.5s ease-out;
+}

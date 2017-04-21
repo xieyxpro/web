@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>注册信息</title>
+		<meta charset="utf-8">
+		<link rel="stylesheet" type="text/css" href="style/index.css">
+		<script type="text/javascript" src="script/jquery.js"></script>
+		<script type="text/javascript" src="script/check.js"></script>
+	</head>
+
+	<body>
+		<h1>注册</h1>
+		<form action="http://127.0.0.1:8000/" method="post" id="form" onsubmit="return check();">
+			<h3>用户注册</h3>
+			用户名:<input type="text" name="username" id="username"/><br><br>
+			学&nbsp&nbsp&nbsp号:<input type="text" name="stuId" id="stuId"/><br><br>
+			电&nbsp&nbsp&nbsp话:<input type="text" name="tellphone" id="tellphone"/><br><br>
+			邮&nbsp&nbsp&nbsp箱:<input type="text" name="mail" id="mail"/><br><br>
+			<input type="reset" value="重置"/>
+			<input type="submit" value="提交"/>
+		</form>
+	</body>
+</html>
